@@ -1,0 +1,50 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://vladislavmakarevic495-afk.github.io/archive-document/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Геттисбергская речь. Экземпляр Николэя",
+  "metadata": [
+    { "label": "Автор", "value": "Авраам Линкольн" },
+    { "label": "Дата", "value": "Ноябрь 1863 г." },
+    { "label": "Место хранения",
+      "value": "Отдел рукописей Библиотеки Конгресса США" }
+  ],
+  "related": "https://www.loc.gov/item/mal4356500/",
+  "sequences": [{
+    "@id": "https://vladislavmakarevic495-afk.github.io/archive-document/sequence/normal",
+    "@type": "sc:Sequence",
+    "canvases": [{
+      "@id": "https://vladislavmakarevic495-afk.github.io/archive-document/canvas/p1",
+      "@type": "sc:Canvas",
+      "label": "Лист 1",
+      "width": 725, "height": 907,
+      "images": [{
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "on": "https://vladislavmakarevic495-afk.github.io/archive-document/canvas/p1",
+        "resource": {
+          "@id": "https://vladislavmakarevic495-afk.github.io/archive-document/page-01.jpg",
+          "@type": "dctypes:Image",
+          "format": "image/jpeg",
+          "width": 725, "height": 907
+        }
+      }]
+    }, {
+      "@id": "https://vladislavmakarevic495-afk.github.io/archive-document/canvas/p2",
+      "@type": "sc:Canvas",
+      "label": "Лист 2",
+      "width": 725, "height": 1190,
+      "images": [{
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "on": "https://vladislavmakarevic495-afk.github.io/archive-document/canvas/p2",
+        "resource": {
+          "@id": "https://vladislavmakarevic495-afk.github.io/archive-document/page-02.jpg",
+          "@type": "dctypes:Image",
+          "format": "image/jpeg",
+          "width": 725, "height": 1190
+        }
+      }]
+    }]
+  }]
+}
