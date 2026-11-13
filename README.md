@@ -9,4 +9,6 @@
 
 [Манифест IIIF Presentation API 2.1](manifest.json)
 
+[Адрес манифеста для Mirador в GitHub Pages](https://vladislavmakarevic495-afk.github.io/Arhive/manifest.json)
+
 Библиотека Конгресса США. [Карточка документа](https://www.loc.gov/item/mal4356500/) · [Электронная выставка с цифровыми копиями](https://loc.gov/exhibits/gettysburg-address/exhibition-items.html#obj4)
